@@ -1,0 +1,34 @@
+{
+	"name": "auth-em-form-cli",
+	"version": "1.0.0",
+	"description": "auth-em-form-cli is a Command-Line Interface (CLI) tool designed to simplify the process of generating authentication form components for React applications using auth-em-form library",
+	"main": "index.ts",
+	"files": [
+		"assets",
+		"bin"
+	],
+	"bin": {
+		"auth-em-form-cli": "bin/cli.mjs"
+	},
+	"scripts": {
+		"build": "rimraf dist && tsup"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Ethern-Myth/auth-em-form-cli.git"
+	},
+	"keywords": [
+		"cli",
+		"generator"
+	],
+	"author": "Ethern Myth",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Ethern-Myth/auth-em-form-cli/issues"
+	},
+	"homepage": "https://github.com/Ethern-Myth/auth-em-form-cli#readme",
+	"dependencies": {
+		"commander": "^12.0.0",
+		"inquirer": "^9.2.15"
+	}
+}
