@@ -1,5 +1,7 @@
 # Auth Em Form CLI
 
+[![npm downloads](https://img.shields.io/npm/dm/auth-em-form-cli)](https://www.npmjs.com/package/auth-em-form-cli)
+
 <div align="center">
 
 ![Logo](./assets/logo/AuthForm.png)
